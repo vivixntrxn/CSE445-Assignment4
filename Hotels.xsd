@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs.schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <!-- Define the root element Hotels -->
     <xs:element name="Hotels">
@@ -28,7 +28,7 @@
                         <xs:element name="City" type="xs:string"/>
                         <xs:element name="State" type="xs:string"/>
                         <xs:element name="Zip" type="xs:string"/>
-                    <xs:sequence>
+                    </xs:sequence>
                     <!-- Required attribute of Address -->
                     <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
                 </xs:complexType>
@@ -36,6 +36,6 @@
         </xs:sequence>
         <!-- Optional attribute of Hotel-->
         <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
-    </xs:compelxType>
+    </xs:complexType>
 
 </xs:schema>
