@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Defines a collection of hotels -->
+<Hotels>
+    <!-- Example Hotel -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearstAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E.7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #1 -->
+    <Hotel Rating="4.7">
+        <Name>Four Seasons Resort Hualalai</Name>
+        <Phone>808-325-8000</Phone>
+        <Address NearstAirport="Ellison Onizuka Kona">
+            <Number>72-100</Number>
+            <Street>Ka'upulehu Dr</Street>
+            <City>Kailua-Kona</City>
+            <State>HI</State>
+            <Zip>96740</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #2 -->
+    <Hotel Rating="4.7">
+        <Name>Acqualina Resort &amp; Residences On The Beach</Name>
+        <Phone>877-312-9742</Phone>
+        <Phone>305-918-8000</Phone>
+        <Address NearstAirport="Fort Lauderdale-Hollywood">
+            <Number>17875</Number>
+            <Street>Collins Ave</Street>
+            <City>Sunny Isles Beach</City>
+            <State>FL</State>
+            <Zip>33160</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #3 -->
+    <Hotel Rating="4.7">
+        <Name>Kona Village, A Rosewood Resort</Name>
+        <Phone>808-865-0100</Phone>
+        <Phone>214-414-7506</Phone>
+        <Address NearstAirport="Ellison Onizuka Kona">
+            <Number>72-300</Number>
+            <Street>Maheawalu Dr</Street>
+            <City>Kailua-Kona</City>
+            <State>HI</State>
+            <Zip>96740</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #4 -->
+    <Hotel Rating="4.5">
+        <Name>The Ritz-Carlton New York, NoMad</Name>
+        <Phone>800-618-0798</Phone>
+        <Phone>212-404-8410</Phone>
+        <Address NearstAirport="LaGuardia">
+            <Number>25</Number>
+            <Street>W.28th St</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10001</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #5 -->
+    <Hotel Rating="4.7">
+        <Name>Four Seasons Resort Maui At Wailea</Name>
+        <Phone>808-874-8000</Phone>
+        <Address NearstAirport="Kahului">
+            <Number>3900</Number>
+            <Street>Wailea Alanui Dr</Street>
+            <City>Kihei</City>
+            <State>HI</State>
+            <Zip>96753</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #6 -->
+    <Hotel Rating="4.8">
+        <Name>Four Seasons Hotel At The Surf Club</Name>
+        <Phone>305-381-3333</Phone>
+        <Address NearstAirport="Miami">
+            <Number>9011</Number>
+            <Street>Collins Ave</Street>
+            <City>Surfside</City>
+            <State>FL</State>
+            <Zip>33154</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #7 -->
+    <Hotel Rating="4.7">
+        <Name>Four Seasons Hotel New York Downtown</Name>
+        <Phone>646-880-1999</Phone>
+        <Address NearstAirport="LaGuardia">
+            <Number>27</Number>
+            <Street>Barclay St</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10007</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #8 -->
+    <Hotel Rating="4.5">
+        <Name>The Plaza</Name>
+        <Phone>212-759-3000</Phone>
+        <Phone>888-850-0909</Phone>
+        <Address NearstAirport="LaGuardia">
+            <Number>768</Number>
+            <Street>5th Ave</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #9 -->
+    <Hotel Rating="4.3">
+        <Name>The Waldorf-Astoria</Name>
+        <Phone>212-355-3000</Phone>
+        <Address NearstAirport="LaGuardia">
+            <Number>301</Number>
+            <Street>Park Ave</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10022</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel #10 -->
+    <Hotel Rating="4.4">
+        <Name>The Queen Mary</Name>
+        <Phone>562-435-3511</Phone>
+        <Phone>888-217-1153</Phone>
+        <Address NearstAirport="Long Beach">
+            <Number>1126</Number>
+            <Street>Queens Highway</Street>
+            <City>Long Beach</City>
+            <State>CA</State>
+            <Zip>90802</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
