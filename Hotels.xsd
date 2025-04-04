@@ -21,7 +21,7 @@
             <!-- Address element -->
             <xs:element name="Address" type="AddressType"/>
         </xs:sequence>
-        <xs:attribute name="Rating" type"xs:decimal" use="optional"/>
+        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
     </xs:complexType>
 
     <!-- Define Address type -->
