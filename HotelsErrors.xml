@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Defines a collection of hotels -->
 <!-- Error #1: The root element name is Hotel, instead of Hotels -->
 <Hotel>
     <!-- Example Hotel -->
