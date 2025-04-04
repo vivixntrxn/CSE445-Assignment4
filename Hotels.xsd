@@ -33,6 +33,6 @@
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
-        <xsd:complexType>
-    <xsd:element>
+        </xsd:complexType>
+    </xsd:element>
 </xsd:schema>
