@@ -13,7 +13,7 @@
     </Hotel>
 
     <!-- Hotel #1 -->
-    <Hotel>
+    <Hotel Rating="4.7">
         <Name>Four Seasons Resort Hualalai</Name>
         <Phone>808-325-8000</Phone>
         <Address NearstAirport="Ellison Onizuka Kona">
@@ -94,7 +94,7 @@
     </Hotel>
 
     <!-- Hotel #7 -->
-    <Hotel>
+    <Hotel Rating="4.7">
         <Name>Four Seasons Hotel New York Downtown</Name>
         <Phone>646-880-1999</Phone>
         <Address NearstAirport="LaGuardia">
