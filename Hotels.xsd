@@ -5,31 +5,31 @@
         <xsd:complexType>
             <xsd:sequence>
                 <!-- One or more Hotel elements -->
-                <xsd:element name="Hotel" minOccurs="0" maxOccurs="unbounded"/>
+                <xsd:element name="Hotel" minOccurs="0" maxOccurs="unbounded">
                     <xsd:complexType>
                         <xsd:sequence>
                             <!-- Name element -->
-                            <xsd:element name="Name" type="xs:string"/>
+                            <xsd:element name="Name" type="xsd:string"/>
                             <!-- Phone element -->
-                            <xsd:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                            <xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
                             <!-- Address element -->
-                            <xsd:element name="Address"/>
+                            <xsd:element name="Address">
                                 <xsd:complexType>
                                     <xsd:sequence>
                                         <!-- Address sub-elements -->
-                                        <xsd:element name="Number" type="xs:string"/>
-                                        <xsd:element name="Street" type="xs:string"/>
-                                        <xsd:element name="City" type="xs:string"/>
-                                        <xsd:element name="State" type="xs:string"/>
-                                        <xsd:element name="Zip" type="xs:string"/>
+                                        <xsd:element name="Number" type="xsd:string"/>
+                                        <xsd:element name="Street" type="xsd:string"/>
+                                        <xsd:element name="City" type="xsd:string"/>
+                                        <xsd:element name="State" type="xsd:string"/>
+                                        <xsd:element name="Zip" type="xsd:string"/>
                                     </xsd:sequence>
                                     <!-- Required attribute of Address -->
-                                    <xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+                                    <xsd:attribute name="NearstAirport" type="xsd:string" use="required"/>
                                 </xsd:complexType>
                             </xsd:element>
                         </xsd:sequence>
                         <!-- Optional attribute of Hotel -->
-                        <xs:attribute name="Rating" type="xs:string" use="optional"/>
+                        <xsd:attribute name="Rating" type="xsd:string" use="optional"/>
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
