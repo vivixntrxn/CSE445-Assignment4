@@ -21,11 +21,12 @@
             <!-- Address element -->
             <xs:element name="Address" type="AddressType"/>
         </xs:sequence>
+        <!-- Optional attribute of Hotel -->
         <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
     </xs:complexType>
 
     <!-- Define Address type -->
-    <xs:complexType>
+    <xs:complexType name="AddressType">
         <xs:sequence>
             <!-- Address sub-elements -->
             <xs:element name="Number" type="xs:string"/>
