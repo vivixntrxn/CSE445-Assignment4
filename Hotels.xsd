@@ -22,7 +22,7 @@
             <xs:element name="Address" type="AddressType"/>
         </xs:sequence>
         <!-- Optional attribute of Hotel -->
-        <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+        <xs:attribute name="Rating" type="xs:string" use="optional"/>
     </xs:complexType>
 
     <!-- Define Address type -->
