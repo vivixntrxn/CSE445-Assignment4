@@ -17,7 +17,7 @@
         <Name>Four Seasons Resort Hualalai</Name>
         <Phone>808-325-8000</Phone>
         <Address NearstAirport="Ellison Onizuka Kona">
-            <Number>72-100</Number>
+            <Number>72100</Number>
             <Street>Ka'upulehu Dr</Street>
             <City>Kailua-Kona</City>
             <State>HI</State>
@@ -45,7 +45,7 @@
         <Phone>808-865-0100</Phone>
         <Phone>214-414-7506</Phone>
         <Address NearstAirport="Ellison Onizuka Kona">
-            <Number>72-300</Number>
+            <Number>72300</Number>
             <Street>Maheawalu Dr</Street>
             <City>Kailua-Kona</City>
             <State>HI</State>
