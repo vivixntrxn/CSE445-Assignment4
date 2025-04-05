@@ -1,6 +1,9 @@
-<Hotels>
+<Hotels
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Hotels.xsd">
+    
     <Hotel Rating="4.2">
-        <Name>Westin</Name>
+    <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address NearstAirport="Sky Harbor">
@@ -12,6 +15,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #1 -->
     <Hotel Rating="4.7">
         <Name>Four Seasons Resort Hualalai</Name>
         <Phone>808-325-8000</Phone>
@@ -24,6 +28,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #2 -->
     <Hotel Rating="4.7">
         <Name>Acqualina Resort &amp; Residences On The Beach</Name>
         <Phone>877-312-9742</Phone>
@@ -37,6 +42,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #3 -->
     <Hotel Rating="4.7">
         <Name>Kona Village, A Rosewood Resort</Name>
         <Phone>808-865-0100</Phone>
@@ -50,6 +56,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #4 -->
     <Hotel Rating="4.5">
         <Name>The Ritz-Carlton New York, NoMad</Name>
         <Phone>800-618-0798</Phone>
@@ -63,6 +70,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #5 -->
     <Hotel Rating="4.7">
         <Name>Four Seasons Resort Maui At Wailea</Name>
         <Phone>808-874-8000</Phone>
@@ -75,6 +83,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #6 -->
     <Hotel Rating="4.8">
         <Name>Four Seasons Hotel At The Surf Club</Name>
         <Phone>305-381-3333</Phone>
@@ -87,6 +96,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #7 -->
     <Hotel Rating="4.7">
         <Name>Four Seasons Hotel New York Downtown</Name>
         <Phone>646-880-1999</Phone>
@@ -99,6 +109,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #8 -->
     <Hotel Rating="4.5">
         <Name>The Plaza</Name>
         <Phone>212-759-3000</Phone>
@@ -112,6 +123,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #9 -->
     <Hotel Rating="4.3">
         <Name>The Waldorf-Astoria</Name>
         <Phone>212-355-3000</Phone>
@@ -124,6 +136,7 @@
         </Address>
     </Hotel>
 
+    <!-- Hotel #10 -->
     <Hotel Rating="4.4">
         <Name>The Queen Mary</Name>
         <Phone>562-435-3511</Phone>
